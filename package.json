@@ -1,6 +1,6 @@
 {
   "name": "loki-react-native-adapter",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "This is a adapter for Lokijs on react-native",
   "main": "index.js",
   "scripts": {

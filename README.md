@@ -5,11 +5,11 @@
 This module need ```react-native-fs``` for native filesystem access
 
 ### Installation
-```npm install loki-react-native-fs-adapter```
+```npm install loki-react-native-adapter```
 
 or
 
-```yarn add loki-react-native-fs-adapter```
+```yarn add loki-react-native-adapter```
 
 ### How to use
 - Step 1: Import module
