@@ -2,7 +2,21 @@
 ---
 
 ### Requirement
-This module need ```react-native-fs``` for native filesystem access
+- This module need ```react-native-fs``` for native filesystem access
+
+- You need to change a line of code in ```node_modules/lokijs/src/lokijs.js``` at line 1977:
+
+  from
+
+  ```this.fs = require('fs');```
+
+  to
+
+  ```this.fs = require('react-native-fs');```
+
+  In Linux or Mac you can use this command:
+
+  ```sed -i -e "s/require('fs')/require('react-native-fs')/g" node_modules/lokijs/src/lokijs.js```
 
 ### Installation
 ```npm install loki-react-native-adapter```
